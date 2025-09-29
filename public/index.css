@@ -1,12 +1,21 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Public+Sans:wght@300;400&display=swap");
 
 body {
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-weight: 700;
   margin: 0;
-  background: #111;
+  background: #EDE8D0;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+}
+
+
+h1 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  color: #000; /* Same as #uv-address text */
 }
 
 .fa-magnifying-glass {
@@ -80,7 +89,7 @@ body {
 }
 
 .logo-wrapper h1 {
-  color: white;
+  color: #555;
 }
 
 footer {
@@ -126,20 +135,15 @@ footer a:hover {
   font-family: inherit;
   padding: 0px 17px;
   height: 48px;
-  border: 1px solid rgb(255, 255, 255, 0.2);
+  border: 1px solid #555;
   color: var(--text-color);
   border-radius: 3px;
   outline: none;
-  width: 350px;
+  width: 600px;
   margin-top: 5px;
   border-radius: 50px;
-  color: #fff;
+  color: #555;
   transition: border-radius 0.1s;
-}
-
-#uv-address:focus {
-  border: 1px solid rgba(253, 253, 253, 0.514);
-  border-radius: 6px;
 }
 
 .credit {
